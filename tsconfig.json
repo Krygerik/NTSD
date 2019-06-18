@@ -3,6 +3,10 @@
         "target": "es5"
     },
     "include": [
-        "src/scenes/*", "src/utills/*"
+        "src/scenes/*",
+        "src/scenes/gameScene/enums.ts",
+        "src/scenes/gameScene/gameScene.ts",
+        "src/scenes/gameScene/utills/isEqualsArray.ts",
+        "src/scenes/gameScene/utills/healthBar.ts"
     ]
 }

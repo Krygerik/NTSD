@@ -2,7 +2,7 @@
     "name": "test-phaser",
     "version": "1.0.0",
     "description": "",
-    "main": "webpack.config.js",
+    "main": "webpack.config.ts",
     "scripts": {
         "build": "webpack --mode production",
         "start": "webpack-dev-server --mode development --open --hot"
@@ -11,14 +11,14 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "phaser": "^3.17.0",
-        "ts-loader": "^6.0.2",
-        "typescript": "^3.5.1",
-        "webpack": "^4.32.2",
-        "webpack-cli": "^3.3.2",
-        "webpack-dev-server": "^3.5.1"
+        "phaser": "3.17.0",
+        "ts-loader": "6.0.2",
+        "typescript": "3.5.1",
+        "webpack": "4.32.2",
+        "webpack-cli": "3.3.2",
+        "webpack-dev-server": "3.5.1"
     },
     "dependencies": {
-        "lodash": "^4.17.11"
+        "lodash": "4.17.11"
     }
 }

@@ -1,5 +1,5 @@
 import {Types, Game} from "phaser";
-import {GameScene} from "./scenes/gameScene";
+import {GameScene} from "./scenes/gameScene/gameScene";
 import {MenuScene} from "./scenes/menuScene";
 
 const config: Types.Core.GameConfig = {

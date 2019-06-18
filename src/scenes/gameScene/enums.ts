@@ -9,7 +9,9 @@ export const enum KeysLoadResources {
     BLOCK = "block",
     THROW = "throw",
     ICON = "icon",
-    DIED = "died"
+    DIED = "died",
+    ATTACK = "attack",
+    DAMAGED = "damaged"
 }
 
 export const enum KeysAnimationsNaruto {
@@ -19,7 +21,9 @@ export const enum KeysAnimationsNaruto {
     BLOCK = "block",
     THROW = "throw",
     DIED = "died",
-    FALLEN = "fallen"
+    FALLEN = "fallen",
+    ATTACK = "attack",
+    DAMAGED = "damaged"
 }
 
 export const enum ArrowKeys {
@@ -45,7 +49,7 @@ export const enum PlayerState {
     ATTACK = "attack",
     STRONG_ATTACK = "strong_attack",
     FALLEN = "fallen",
-    PUNCHED = "punched",
+    DAMAGED = "damaged",
     DIED = "died"
 }
 

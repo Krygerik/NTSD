@@ -20,5 +20,3 @@ module.exports = {
     },
     mode: 'development'
 };
-
-//        "start": "webpack-dev-server --mode development --open --hot"

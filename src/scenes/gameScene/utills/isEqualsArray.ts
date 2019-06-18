@@ -1,4 +1,4 @@
-import * as _ from 'lodash';
+import * as _ from "lodash";
 
 export default function isEquals (a: number[], b: number[]): boolean {
     let diffArray: Array<Number> = [];
