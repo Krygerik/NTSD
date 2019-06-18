@@ -29,7 +29,8 @@ export class GameScene extends Scene {
     }
 
     preload(): void {
-        this.load.path = "../assets/sheets/";
+        // this.load.path = "../assets/sheets/";
+        this.load.baseURL = "https://raw.githubusercontent.com/Krygerik/NTSD/master/assets/sheets/";
         this.load.image(enums.KeysLoadResources.FLOOR, "floor.jpg");
         this.load.image(enums.KeysLoadResources.GROUND, "ground.png");
         this.load.image(enums.KeysLoadResources.BACKGROUND, "background.jpg");
